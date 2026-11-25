@@ -1,0 +1,18 @@
+[package]
+name = "cortex9-raft-log-store"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+license = "Apache-2.0"
+description = "Raft consensus core as a pure state machine with durable log and snapshot stores (hexagonal)."
+authors = ["Federico Nicolas Baez Rizzo"]
+repository = "https://github.com/federiconbaez/cortex9-raft-log-store"
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[lints.rust]
+unsafe_code = "forbid"
